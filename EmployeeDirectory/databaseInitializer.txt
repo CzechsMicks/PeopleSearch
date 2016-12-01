@@ -1,0 +1,42 @@
+﻿CREATE TABLE EmployeeDirectory  
+(  
+    ID int NOT NULL  
+    ,FName varchar(50) NULL  
+    ,LName varchar(50) NULL  
+    ,Address varchar(50) NULL  
+    ,Age int NULL  
+    ,Interests varchar(50) NULL  
+    ,Picture varchar(50) NULL
+	,GUID uniqueidentifier NOT NULL 
+	,PRIMARY KEY (ID)
+);
+
+INSERT INTO EmployeeDirectory (FName, LName, Address, 
+Age, Interests, Picture)
+VALUES ('Clark', 'Kent', 'Fortress of Solitude', 
+30, 'Saving Lives', 'img_link');
+
+INSERT INTO EmployeeDirectory (FName, LName, Address, 
+Age, Interests, Picture)
+VALUES ('Kent', 'Clark', '123 oak st', 
+30, 'Accounting', 'img_link');
+
+INSERT INTO EmployeeDirectory (FName, LName, Address, 
+Age, Interests, Picture)
+VALUES ('Bruce', 'Banner', 'Hulkamania', 
+30, 'Yoga', 'img_link');
+
+INSERT INTO EmployeeDirectory (FName, LName, Address, 
+Age, Interests, Picture)
+VALUES ('Tony', 'Stark', 'Mansion', 
+30, 'Robotics', 'img_link');
+
+INSERT INTO EmployeeDirectory (FName, LName, Address, 
+Age, Interests, Picture)
+VALUES ('Bruce', 'Wayne', 'Batcave', 
+30, 'Kung fu', 'img_link');
+
+INSERT INTO EmployeeDirectory (FName, LName, Address, 
+Age, Interests, Picture)
+VALUES ('The', 'Riddler', 'Riddle lane', 
+30, 'Riddles', 'img_link');

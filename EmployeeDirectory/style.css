@@ -1,0 +1,14 @@
+﻿body {
+}
+dl{ 
+	      width:400px; 
+	      margin:0 auto; 
+	} 
+	dl dt{ 
+	      float:left; 
+	      width:80px; 
+	} 
+	dl dt dd{ 
+          float:left; 
+	      width:80px; 
+	} 
